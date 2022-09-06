@@ -1,0 +1,25 @@
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+  width: 100%;
+}
+body::-webkit-scrollbar-track {
+  background:#ff0000 ;
+  border-radius: 1px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color:  purple;
+  border-radius: 1px;
+}
+button{ cursor: pointer; }
+input{ outline: none; }
